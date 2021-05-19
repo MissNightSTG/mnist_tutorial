@@ -1,24 +1,12 @@
-# mnist_tutorial
-A tutorial for MNIST handwritten digit classification using sklearn, PyTorch and Keras.
+# 提交说明
+我选择了pytorch框架进行本次识别任务。
+Q4中，我将penalty改为了l1距离，迭代次数改为了100次。
+Pytorch框架中，我的网络结构为普通的CNN网络，两层卷积层。
 
-# Code structure
-* [`numpy_matplotlib_sklearn.ipynb`](numpy_matplotlib_sklearn.ipynb): for numpy, matplotlib and sklearn.
-* [`pytorch.ipynb`](pytorch.ipynb): for pytorch.
-* [`keras.ipynb`](keras.ipynb): for keras.
-* Reference solution: (not published yet)
-    * [`numpy_matplotlib_sklearn_solution.ipynb`](numpy_matplotlib_sklearn_solution.ipynb)
-    * [`pytorch_solution.ipynb`](pytorch_solution.ipynb)
-    * [`keras_solution.ipynb`](keras_solution.ipynb)
-
-# Requirements
-Code tested on following environments, other version should also work:
-* linux system (ubuntu 16.04) 
-* python 3.6.3
-* numpy 1.13.3
-* matplotlib 2.1.0
-* sklearn 0.19.1
-* pytorch 0.4.1
-* keras 2.1.2
-
-# For students from SJTU
-Please read [HEAR](EE369.md).
+# Train acc & Test acc（下列数据中，Training acc在前，Testing acc在后）
+注：Q5采用了最后一次epoch的acc作为记录结果。
+Q1：97.25% 88.50%
+Q2：81.57% 82.30%
+Q3：97.88% 87.60% 
+Q4：96.52% 88.30%
+Q5：99.91% 99.76%
